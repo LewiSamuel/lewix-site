@@ -1,12 +1,32 @@
-.header{
-    background-image: url(http://source.unsplash.com/700x700/?technology);
-    width: 100%;
-    height: 100vh;
-    opacity: 0.4;
-    background-size: cover;
-    overflow: hidden;
-    background-position: center;
-}
+
+/*
+ *  STYLE 7
+ */
+
+::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     background-color: #333333;
+     border-radius: 10px;
+ }
+ 
+::-webkit-scrollbar
+ {
+     width: 10px;
+     background-color: #000000;
+ }
+ 
+::-webkit-scrollbar-thumb
+ {
+     border-radius: 10px;
+     background-image: -webkit-gradient(linear,
+                                        left bottom,
+                                        left top,
+                                        color-stop(0.44, rgb(122,153,217)),
+                                        color-stop(0.72, rgb(73,125,189)),
+                                        color-stop(0.86, rgb(28,58,148)));
+ }
+
 
 .container-lewix{
     position: fixed;
@@ -20,9 +40,75 @@
 }
 
 body{
-    background-color: black
+    background-color: #141518;
+    background-image: url(/src/arif-riyanto-vJP-wZ6hGBg-unsplash-2.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    color: white;
 }
 
 .lewix{
-    max-width: 100%;
+    width: 200px;
+}
+.navTop{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    font-variant-caps: all-petite-caps;
+}
+
+.nav-link{
+    color: white;
+}
+
+.tituloPage{
+    font-size: 4.5rem;
+    text-shadow: 4px 5px 6px #000000b0;
+}
+kbd{
+    background-color: #f5791c;
+}
+
+.headerTop{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.step-a-step{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.step-a-step b{
+    font-size: 1.5rem;
+}
+.step-a-step p{
+    font-size: 1.5rem;
+}
+.step-a-step .ladoImg img{
+    width: 100%;
+}
+.step-a-step .ladoImg{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.step-a-step .ladoText p{
+    font-size: 15px;
+}
+
+footer{
+    background-color: #11171c;
+    margin-top: 50px;
+    border-top: 1px solid #2d2d2d;
+}
+footer .content{
+    text-align: center;
+    padding: 200px 0px;
 }
