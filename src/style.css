@@ -53,7 +53,7 @@ body{
 .navTop{
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .nav{
@@ -65,8 +65,9 @@ body{
 }
 
 .tituloPage{
-    font-size: 4.5rem;
+    font-size: 4rem;
     text-shadow: 4px 5px 6px #000000b0;
+    padding: 0 30px;
 }
 kbd{
     background-color: #f5791c;
@@ -93,6 +94,8 @@ kbd{
 }
 .step-a-step .ladoImg img{
     width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 .step-a-step .ladoImg{
     display: flex;
@@ -102,7 +105,12 @@ kbd{
 .step-a-step .ladoText p{
     font-size: 15px;
 }
-
+h2{
+    color: gray;
+}
+h4{
+    background-color: #081025;
+}
 footer{
     background-color: #11171c;
     margin-top: 50px;
@@ -111,4 +119,7 @@ footer{
 footer .content{
     text-align: center;
     padding: 200px 0px;
+    
+    display: flex;
+    flex-direction: column;
 }
